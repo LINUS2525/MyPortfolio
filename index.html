@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skill</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </nav>
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="#" style="--i: 1" class="active">Home</a>
+        <a href="#" style="--i: 2">About</a>
+        <a href="#" style="--i: 3">Skill</a>
+        <a href="#" style="--i: 4">Portfolio</a>
+        <a href="#" style="--i: 5">Contact</a>
+      </nav>
     </header>
     <section class="home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
-            <h1>Sunil Choudhary</h1>
-            <h3>And I'm a <span class="text"></span></h3>
-            <p>I'm a competitive programmer with two years of experience and 
-                <br>a web developer specializing in creating dynamic and responsive websites for the past four months. 
-                <br>I excel at problem-solving and building innovative web solutions.</p>
-                <div class="home-sci">
-                    <a href="#"><i class='bx bxl-facebook' ></i></a>
-                    <a href="#"><i class='bx bxl-instagram' ></i></a>
-                    <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-                    
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Sunil Choudhary</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          I'm a competitive programmer  and a
+          web developer specializing in <br />creating dynamic and responsive websites
+          for the past four months. <br />I excel at problem-solving and
+          building innovative web solutions.
+        </p>
+        <div class="home-sci">
+          <a href="#" style="--i: 6"><i class="bx bxl-facebook"></i></a>
+          <a href="#" style="--i: 7"><i class="bx bxl-instagram"></i></a>
+          <a href="#" style="--i: 8"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+        <a href="#" class="btn-box">More About Me</a>
+      </div>
+      <span class="home-imghover"></span>
+    </section>
 
-                </div>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image6.png">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p> I am a passionate competitive programmer with over two years of experience, constantly pushing my limits to solve intricate problems and optimize solutions.
+                My journey in coding has honed my analytical skills, allowing me to tackle complex challenges efficiently. Recently, I ventured into web development, amassing
+                four months of hands-on experience. This new avenue has expanded my skill set, enabling me to create dynamic and user-friendly websites. My expertise in both 
+                front-end and back-end development allows me to build comprehensive and seamless web applications.I am currently pursuing my B.Tech in Electrical Engineering 
+                from NIT Silchar, where I integrate my technical knowledge with practical coding skills. As a dedicated problem solver, I thrive on turning abstract concepts
+                into innovative solutions.Explore my projects and accomplishments to see how I blend my passion for programming with my academic pursuits to create impactful 
+                and efficient solutions.</p>
                 <a href="#" class="btn-box">More About Me</a>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
