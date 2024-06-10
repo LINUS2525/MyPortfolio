@@ -6,14 +6,15 @@
 }
 body {
   color: #ededed;
+  background:#231942;
 }
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 10%;
-  background: transparent;
+  padding: 15px 10%;
+  background: #534d74;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +43,7 @@ body {
   animation-delay: calc(0.2s * var(--i));
 }
 .navbar a:hover {
-  color: #5e548e;
+  color: #9632a5;
 }
 .home {
   position: realtive;
@@ -157,8 +158,55 @@ body {
     color:#be95c4;
 }
 
+.about-text h4{
+  font-size:29px;
+  font-weight:600;
+  color: #fff;
+  line-height:1.7;
+  margin: 15px 0 30px;
+}
+.about-text p{
+  color:#be95c4;
+  font-size:20px;
+  line-height:1.4;
+  margin-bottom:4rem;
+}
+#services{
+  color:#e0b1cb;
+  font-size:20px;
+  line-height:1.4;
+  margin-bottom:4rem;
 
+}
+.sub-title {
+  text-align:center;
+  font-size:60px;
+  padding-bottom:70px;
+}
+.sub-title span{
+  color:#9632a5;
+}
+.container{
+  padding:90px;
+}
+.services-list{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+  grid-gap: 40px;
+  margin-top:50px;
 
+}
+.services-list div{
+  background-color: transparent;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 13px;
+  border-right: 10px;
+  border-radius: 20px;
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 1px 1px 20px #e0b1cb,
+              1px 1px 40px  #7c7894;
+}
 
 
 
